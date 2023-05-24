@@ -254,7 +254,7 @@ class CrimeFragment : Fragment() {
                 count: Int,
                 after: Int
             ) {
-                // Это пространство оставлено пустым специально
+               
             }
             override fun onTextChanged(
                 sequence: CharSequence?,
@@ -265,7 +265,7 @@ class CrimeFragment : Fragment() {
                 crime.title = sequence.toString()
             }
             override fun afterTextChanged(sequence: Editable?) {
-                // И это
+               
             }
         }
         titleField.addTextChangedListener(titleWatcher)
